@@ -11,5 +11,5 @@ After do |scenario|
     shot = "logs/screenshots/#{name}.png"
     page.save_screenshot(shot)
     arquivo = attach(shot,'image/png')
-    Allure.add_attachment( name: name, source: "logs/allure_report/#{name}.jpg", type: Allure::ContentType::PNG, test_case: true )
+    Allure.add_attachment( name: name, source: "logs/allure_report/#{name}.png", type: Allure::ContentType::PNG, test_case: true )
 end

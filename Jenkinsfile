@@ -24,12 +24,7 @@ pipeline {
                 }
             }
         }
-        stage('UAT'){
-            steps{
-                echo 'Wait for use Acceptance'
-            }
-        }
-        stage('Prod'){
+        stage('Deploy'){
             steps{
                 echo 'WebApp is Read'
             }
