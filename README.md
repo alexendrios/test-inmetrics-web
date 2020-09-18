@@ -26,5 +26,5 @@ bundle exec cucumber -p ci
 ### Verificanficando os Reports no Allure
 * Impotante ter o Allure Framework instalado
 '
-Execute dentro da pasta logs: "allure serve allure_report"
+* Execute dentro da pasta logs: "allure serve allure_report"
 '
