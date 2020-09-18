@@ -5,12 +5,12 @@
 
 ### Instalar o bundler
 '
-*gem install bundler
+gem install bundler
 '
 
 ### Instalar as Depedências do Ruby (projeto)
 '
-*bundler install
+bundler install
 '
 
 ### Executar Localmente
@@ -20,10 +20,10 @@ bundle exec cucumber
 
 ### Executar no servidor CI (gerando reports JSON)
 '
-*bundle exec cucumber -p ci
+bundle exec cucumber -p ci
 '
 
-### Verificanficando os Reports no Allure
+### Verificanficando os Reports no Allure (localmente)
 * Impotante ter o Allure Framework instalado
 '
 * Execute dentro da pasta logs: "allure serve allure_report"
