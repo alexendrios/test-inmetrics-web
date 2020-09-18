@@ -1,4 +1,3 @@
-require 'Faker'
 class Utils
     def gerar_usuario
        usuario = Faker::Name.name 
